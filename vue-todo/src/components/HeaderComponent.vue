@@ -7,8 +7,11 @@
 export default {
     data: function() {
         return {
-            msg: "This is a HeaderComponent"
+            msg: "Todo Management"
         }
     }
 }
 </script>
+<style scoped>
+
+</style>

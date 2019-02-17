@@ -1,13 +1,13 @@
 <template>
     <div>
-      {{msg}}  
+      <button v-on:click="removeItemAll">RemoveItemAll</button>
     </div>
 </template>
 <script>
 export default {
-    data: function() {
-        return {
-            msg: "This is a FooterComponent"
+    methods: {
+        removeItemAll: function() {
+            this.$emit("removeItemAll");
         }
     }
 }
